@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    text-align: center;
+}
+.tabla-css {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 600px;
+    box-shadow: 0 0 25px gray;
+    border-collapse: collapse;
+}
+.tabla-css thead tr {
+    background-color: rgb(228, 170, 11);
+    color: black;
+    text-align: center;
+}
+
+.tabla-css th,
+.tabla-css td {
+    padding: 20px;
+    text-align: center;
+}
+.tabla-css tbody tr:nth-of-type(even){
+    background-color: #f8c7282c;   
+   }
